@@ -1,0 +1,58 @@
+
+body
+{
+    height: 100vh;
+    width:100vw;
+    margin:0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin:0px
+    background-color: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.but
+{
+    background-color: rgb(153, 103, 218);
+    border: none;
+    border-radius: 10px;
+}
+.newE
+{
+    padding-right: 300px;
+}
+.correct
+{
+    border-radius: 10px;
+    border: none;
+}
+.container
+{
+        height: 70vh;
+        width: 30vw;
+        margin:0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap:1rem;
+        background-color: #a7a7ec;
+        flex-direction: column;
+        border-radius: 10px;
+
+        box-shadow:
+  3px 3.6px 3.6px rgba(0, 0, 0, 0.067),
+  7.2px 8.6px 8.6px rgba(0, 0, 0, 0.097),
+  13.6px 16.3px 16.3px rgba(0, 0, 0, 0.12),
+  24.3px 29px 29px rgba(0, 0, 0, 0.143),
+  45.5px 54.3px 54.3px rgba(0, 0, 0, 0.173),
+  109px 130px 130px rgba(0, 0, 0, 0.24)
+;
+}
+.correct:focus{
+    outline:none;
+    border-bottom: 4px solid violet;
+}

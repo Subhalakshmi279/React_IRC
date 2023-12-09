@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background: #4ECDC4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.operation
+{
+    height: 50vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center; 
+     align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgba(179, 203, 236, 0.403);
+    padding-bottom: 150px;
+    padding-bottom: 50px;
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/1736051204/display_1500/stock-photo-beautiful-grunge-grey-blue-background-panoramic-abstract-decorative-dark-background-wide-angle-1736051204.jpg");
+    border-radius: 10px;
+    box-shadow:
+  18.4px 15.5px 4.5px -15px rgba(0, 0, 0, 0.069),
+  61.9px 52px 15.2px -15px rgba(0, 0, 0, 0.101),
+  277px 233px 68px -15px rgba(0, 0, 0, 0.17)
+;
+    
+}
+.format
+{
+    background-color:rgb(134, 196, 237);
+    height: 35px;
+    width: 183px;
+    border-radius: 10px;
+    border: none;
+}
+
+.new
+{
+    padding-top: 80px;
+    
+}
+.opt{
+    border-radius: 10px;
+    background-color: rgb(123, 158, 227);
+    border: none;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="container"onsubmit="register()"> 
+        
+            <h1>Registration page</h1>
+            
+            <input type="text" id="Name" class="correct" placeholder="Name" style="height: 5vh;width: 20vw;">
+           
+            <input type="email" id="email"class="correct" placeholder="email"style="height: 5vh;width: 20vw;">
+            
+            <input type="number" id="Number"class="correct" placeholder="Phone"style="height: 5vh;width: 20vw;">
+            <!-- <span class="checkbox">
+            <label>Male</label>
+            <input type="checkbox" id="female"class="correct" placeholder="enter">
+            <label>Female</label>
+            <input type="checkbox" id="male"class="correct" placeholder="enter"> 
+            </span> -->
+            <input type="datetime-local"class="correct" style="height: 5vh;width: 20vw;">
+            
+            <input type="password" id="passr"class="correct" placeholder="password"style="height: 5vh;width: 20vw;">
+            <input type="password" id="pass"class="correct" placeholder="retype your password"style="height: 5vh;width: 20vw;">
+
+            <input type="submit"  class="but" style="height: 5vh; width: 10vw;" value="SUBMIT">
+            
+       
+    </form>
+    <!-- <button onclick="show()"> show user</button>
+    <p id="user"></p> -->
+</body>
+<script>
+    function register()
+    {
+        let m1 = document.getElementById("passr").value;
+        let m2 = document.getElementById("pass").value;
+        // let x = document.getElementById("Name").value;
+          
+        // let y = document.getElementById("email").value;
+        
+        // let z = document.getElementById("Number").value;
+    
+        // let w = document.getElementById("passr").value;
+
+        // alert("registered! "+x+" with your "+y+", "+z+", "+" & "+w)    
+
+        
+        if(m1  == m2)
+        {
+            alert("Password matched")
+        }
+        else    
+            alert("Password Mismatched")
+        
+            
+    }
+
+        // function show()
+        // {
+        //     alert("hi")
+        // }
+</script>
+</html>
