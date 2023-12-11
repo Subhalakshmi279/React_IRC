@@ -1,21 +1,32 @@
 import Nav from"./Components/Nav";
 import Footer from "./Components/Footer";
 import "./Assets/CSS/Nav.css";
+import topview from "./Assets/images/topview.mp4";
+
 
 function App() {
   return (
     <div>
       <Nav/>
-    <center><h1 className="but">WORLD OF VIEW</h1></center>
-    <h2 className="new">Start Your New York Hop On Hop Off Adventure Here</h2>
+
+    <video className="background-video" autoPlay loop muted playsInline>
+        <source src={topview} type="video/mp4" />
+      </video>
+      
+      <div className="contain">
+      <h1>Start Your New York Hop On Hop Off Adventure Here</h1>
+    <div className="bux"><center><button className="bix">Buy Tickets</button></center></div>
+    </div>
+
+    <div className="final">
+      <h2  className="para">What can be better than the huge green park? </h2>
+      <h2 className="para">That is the reason why you should visit the Central Park and find there Sheep Meadow, </h2>
+       <h2 className="para"> it is one of the most beautiful places in New York</h2>
+    </div>
+      
     <Footer/>
    
-    {/* <div className="bux"><center><button className="bix">Buy Tickets</button></center></div> */}
-    <div className="text"><p className="name">Anchored by Wall Street in the Financial District of Lower Manhattan,</p> 
-    <p className="name">New York City has been called both the world's
-       leading financial and fintech center</p>
-       <p className="name">And the most economically powerful city in the world.</p></div>
-    </div>
+       </div>
   );
 }
 

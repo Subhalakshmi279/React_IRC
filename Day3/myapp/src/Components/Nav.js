@@ -3,8 +3,11 @@ const Nav=()=>
     return(
         
         <div className="navbar">
-        <div className="soon">HOME</div>
+        <div className="soon">NewYork</div>
         <ul>
+          <li>
+          <a href="/">Home</a>
+          </li>
           <li>
           <a href="/">Field</a>
           </li>
