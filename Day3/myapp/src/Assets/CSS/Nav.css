@@ -1,0 +1,95 @@
+.navbar
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: brown;
+    font-weight: 300;
+    margin: 0;
+    margin-left: 0;
+    /* background-color: rgb(236, 186, 133); */
+    align-items: center;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+    text-decoration: none;
+    font-style: italic;
+    font-size: larger;
+    background: #ffe259;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+}
+
+.navbar ul
+{
+        font-size: larger;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        padding-left: 60vw;
+        font-style: italic;
+        gap:20px;
+    }
+.li,a
+{
+    font-weight: bold;
+    color: brown;
+    text-decoration: none;
+    padding-left: 90px;
+    justify-items: end;
+}
+body{
+    background-image: url("https://wallpaperset.com/w/full/9/7/8/202124.jpg");
+}
+.but
+{
+    font-style: italic;
+    color: brown;
+    padding-top: 30px;
+}
+.soon
+{
+    font-weight: bold;
+   
+}
+.new
+{
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    font-size: xx-large;
+    color: goldenrod;
+    text-shadow: 2px 2px #f33131;
+}
+.bux
+{
+    /* padding-right: 50px; */
+    padding-left: 30px;
+    padding-top: 130px;
+    justify-content: center;
+}
+.bix
+{
+    height: 2rem;
+    width: 7rem;
+    border-radius: 20px;
+    background-color: #ff0000;
+    /* padding-left: 40px; */
+
+}
+.text
+{
+    padding-top: 60px;
+    padding-left: 50px;
+    font-weight:900;
+    font-size: large;
+    font-style: italic;
+}
+.name
+{
+    color: rgb(245, 239, 213);
+}
