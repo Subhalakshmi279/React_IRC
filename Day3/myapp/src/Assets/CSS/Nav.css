@@ -28,9 +28,9 @@
         display: flex;
         justify-content: space-between;
         list-style-type: none;
-        padding-left: 56vw;
+        padding-left: 54vw;
         font-style: italic;
-        gap:1px;
+       
     }
 .li,a
 {
@@ -39,6 +39,7 @@
     text-decoration: none;
     padding-left: 60px;
     justify-items: end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .para{
@@ -46,25 +47,29 @@
     justify-content: center;
     text-align: center;
     font-weight: 500;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-family:cursive;
     text-shadow: 2px 2px rgb(208, 73, 73);
-    /* gap:10px; */
-    padding-top: 10px;
+    gap:10px; 
+    padding-top: 60px;
+    gap: 1px;
     text-shadow: 2px 2px #f33131;
-}
-.final 
+}  
+.bux2
 {
-    padding-bottom: 40px;
-    height:8rem ;
-    top:0;
-    background-color: #ca9191;
+    height: 3rem;
+    width: 6rem;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 40px;
 }
+
 .soon
 {
     font-weight: bold;
-   
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.new
+/* .new
 {
     align-items: center;
     text-align: center;
@@ -72,12 +77,10 @@
     font-size: xx-large;
     color: rgb(168, 48, 34);
     text-shadow: 2px 2px #f33131;
-}
+} */
 .bux
 {
 
-    
-    
     align-items: center;
     justify-content: center;
     /* padding-right: 3%; */
@@ -90,12 +93,10 @@
 {
     height: 40px;
     width: 100px;
-    border-radius: 20px;
-   background-color: #e35252;
-    
-
-
+    border-radius: 10px;
+   background-color: #e97878;
 }
+
 .text
 {
     padding-top: 60px;
@@ -131,4 +132,13 @@
     color: #ede7e7;
     /* padding-left: 10px; */
     text-shadow: 3px 3px #f33131;
+}
+.full
+{
+    /* margin-bottom: 20%; */
+    height: 40vh;
+    width: 100%;
+    background-color: #0e0c0c;
+    padding-bottom: 20px;
+    background-image: url("https://onaircode.com/wp-content/uploads/2019/08/flexbox-responsive-1-1024x327.jpg");
 }

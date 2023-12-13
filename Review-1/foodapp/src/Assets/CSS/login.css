@@ -1,0 +1,56 @@
+
+.operation
+{
+    height: 50vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center; 
+     align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgba(179, 203, 236, 0.403);
+    /* padding-bottom: 170px; */
+    /* padding-bottom: 70px; */
+    background-image: url("https://media.istockphoto.com/id/1173579665/vector/seamless-pattern-supermarket-grocery-store-food-drinks-vegetables-fruits-fish-meat-dairy.jpg?s=612x612&w=0&k=20&c=XQQ9oPb6lx4m32iPIrmb1fzugwqr-WRUJo8nTod1D2Q=");
+    border-radius: 10px;
+    box-shadow:
+  18.4px 15.5px 4.5px -15px rgba(0, 0, 0, 0.069),
+  61.9px 52px 15.2px -15px rgba(0, 0, 0, 0.101),
+  277px 233px 68px -15px rgba(0, 0, 0, 0.17)
+;
+::placeholder{
+    color: #ece2e2;
+}
+}
+.format
+{
+    background-color:rgba(114, 96, 79, 0.87);
+    height: 35px;
+    width: 183px;
+    border-radius: 10px;
+    /* padding-top: 10%; */
+    border: none;
+    color: #ece2e2;
+}
+.format a{
+    color: #e5dfdf;
+}
+
+.new
+{
+    padding-top: 80px;
+    
+}
+.opt{
+    border-radius: 10px;
+    background-color: rgb(99, 93, 85);
+    border: none;
+    height: 1cm;
+    width:3cm;
+    color:rgb(235, 231, 226) ;
+}
+.co
+{
+   color: rgb(99, 93, 85);
+   font-weight: 900;
+}
