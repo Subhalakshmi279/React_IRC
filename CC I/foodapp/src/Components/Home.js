@@ -6,7 +6,6 @@ const Home = () => {
     return (
         <div className="class-wrapper">
 
-          
             <div className='d-flex-home'>
 
                 <div className="ima-wrapper">

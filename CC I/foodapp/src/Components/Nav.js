@@ -6,15 +6,16 @@ const Nav =()=>
                 <ul>
                     <li class="new-wrapper"><a href="#">FooDle</a></li>
 
-                    <Link to='/Signup'>
-                    <li class="nex-wrapper">Signup</li>
-                    </Link>
 
+                    <li class="nex-wrapper">Orders</li>
+                    
                     <Link to='/Login'>
                     <li class="nex-wrapper">Login</li>
                     </Link>
 
-                    <li class="nex-wrapper">Orders</li>
+                    <Link to='/Signup'>
+                    <li class="nex-wrapper">Signup</li>
+                    </Link>
                 </ul>
             </div>
     )
