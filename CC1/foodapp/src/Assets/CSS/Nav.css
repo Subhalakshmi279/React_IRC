@@ -4,8 +4,8 @@ ul {
     padding: 0;
     overflow: hidden;
     
-    
 }
+
 .d-flex-home{
   display: flex;
   flex-direction: row;
@@ -16,16 +16,14 @@ ul {
 }
 li {
       align-items:end;
-        float:left;
+        /* float:left; */
     
   }
   
   li a {
-    padding-left: 10px;
     display: block;
     color: rgb(22, 13, 13);
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
   }
   
@@ -34,25 +32,25 @@ li {
     border-radius: 20%;
   }
  
-  .nav a
+  /* .nav a
   {
       
         align-items: center;
         
-  }
+  } */
   .new-wrapper
   {
-    padding-right: 40px;
-    font-size: larger;
+    font-size: x-large;
     font-style: italic;
-    gap:20%;
-    font-weight: 500;
+    gap:10%;
+    font-weight: 900;
+    margin-right: 20px;
   }
   .nex-wrapper
   {
     float:right;
-    padding-left: 30px;
     padding-top: 10px;
+    padding-right: 10%;;
     font-size: larger;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
