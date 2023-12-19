@@ -6,6 +6,7 @@ import './Assets/CSS/Home.css';
 import { Route, Routes } from 'react-router-dom'
 import './Assets/CSS/Signup.css';
 import './Assets/CSS/login.css';  
+import './Assets/CSS/Nav.css';
 
 
 function App() {
