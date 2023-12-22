@@ -4,10 +4,11 @@ const Nav =()=>
     return(
         <div className="nav-wrapper1">
                 <ul>
-                    <li class="new-wrapper1"><a href="#">FooDle</a></li>
+                    <li class="new-wrapper1">FooDle</li>
 
-
+                    <Link to='/Sidebar'>
                     <li class="nex-wrapper1">Orders</li>
+                    </Link>
                     
                     <Link to='/Login'>
                     <li class="nex-wrapper1">Login</li>

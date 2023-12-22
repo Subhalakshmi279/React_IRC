@@ -1,0 +1,24 @@
+table{
+    width:40vw;
+    border: 1px solid violet;
+    border-collapse: collapse;
+    text-align: center;
+}
+td,th{
+    padding: 1rem;
+}
+.del-btn{
+    padding: 1rem;
+    background-color: 3 px solid red;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.edit-btn{
+    padding: 1rem;
+    background-color: 3 px solid red;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+ 

@@ -1,8 +1,8 @@
 import Nav from"./Components/Nav";
-import Footer from "./Components/Footer";
+// import Footer from "./Components/Footer";
 import "./Assets/CSS/Nav.css";
 import topview from "./Assets/images/topview.mp4";
-import cards from "./Assets/CSS/cards.css";
+// import cards from "./Assets/CSS/cards.css";
 
 
 

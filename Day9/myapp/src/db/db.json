@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "username": "Karthik T",
+      "password": "2222"
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    }
+  ],
+  "products": [
+    {
+      "pid": 1,
+      "productname": "samsung"
+    }
+  ]
+}

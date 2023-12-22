@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom';
+
 const Signup = () => {
     return (
         <div className="auth-contianer">
@@ -17,7 +19,7 @@ const Signup = () => {
                 <input type="password" id="passr" className="correct" placeholder="password" />
                 <input type="password" id="pass" className="correct" placeholder="retype your password" />
 
-                <input type="submit" className="but" value="SUBMIT" />
+                <Link to="/login"><input type="submit" className="but" value="SUBMIT" /></Link>
 
 
             </form >
